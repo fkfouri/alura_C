@@ -14,4 +14,12 @@ Rode o comando no prompt para entrar no linux: `wsl`
 
 Será utilizado um docker para compilar o codigo gerado.
 
-``
+`docker run -it --rm -v "/mnt/e/Projetos/Alura/alura_C:/my_app" -w "/my_app" gcc:10.2.0ws bash`
+
+## Compilando
+
+Codigo para compilar. A extenção .exe roda no Windows e a extensao .out roda no linux/mac.
+
+- Linux: `gcc game.c -o out/game.out`
+- Windows `gcc game.c -o out/game.exe`
+
