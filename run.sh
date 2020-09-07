@@ -1,0 +1,1 @@
+docker run -it --rm -v "/mnt/e/Projetos/Alura/alura_C:/my_app" -w "/my_app" gcc:10.2.0ws bash
